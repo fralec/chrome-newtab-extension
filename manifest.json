@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "New tab page",
+  "description": "Bing's image of the day as background, and a omnibox-like search bar",
+  "author": "fralec",
+  "version": "0.0.1",
+  "permissions": [
+    "https://www.bing.com/*",
+    "tabs"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  }
+}

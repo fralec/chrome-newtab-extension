@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type="text"] {
+    padding: 12px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+    outline: none;
+    border: none;
+    font-size: 25px;
+    width: 30vw;
+    opacity: 0.8;
+}
+
+span#cr {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #000;
+    opacity: 0.5;
+    border-radius: 3px;
+    padding: 2px;
+    color: #FFF;
+}
